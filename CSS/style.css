@@ -1,0 +1,98 @@
+@font-face { 	font-family: "blank"; 	src: url('../font/ATTRACTYPE REBORN.ttf'); }
+@font-face { 	font-family: "normal"; 	src: url('../font/QUICKSAND-REGULAR.ttf'); }
+
+body{
+  margin: 0;
+	background-color: rgb(247, 247, 247);
+	rgb(247, 247, 247);
+}
+.part1{
+	background-color: black;
+	height: 60vw;
+	display: flex; /* contexte sur le parent */
+	justify-content: center;
+	margin: 0;
+}
+.logo{
+	position: absolute;
+	z-index: 3;
+	display: flex; /* contexte sur le parent */
+	justify-content: center;
+	height: 100vw;
+}
+#logo-blanc{
+  height: 30vw;
+	margin-top: 12vw;
+
+}
+.fond-critures{
+  position: absolute;
+  margin: 0;
+}
+.ecritures{
+	height: 40vw;
+	margin: 0;
+	z-index: 2;
+}
+.ecritures p{
+	color: white;
+	font-family: blank;
+	color: rgba(255,255,255,0.2);
+	font-size: 23vw;
+	margin: 0;
+	line-height: 18vw;
+}
+.degrader{
+	height: 30vh;
+	background-image: -webkit-linear-gradient(90deg,rgba(247,247,247,1.00) 0%,rgba(0,0,0,1.00) 100%);
+	background-image: -moz-linear-gradient(90deg,rgba(247,247,247,1.00) 0%,rgba(0,0,0,1.00) 100%);
+	background-image: -o-linear-gradient(90deg,rgba(247,247,247,1.00) 0%,rgba(0,0,0,1.00) 100%);
+	background-image: linear-gradient(0deg,rgba(247,247,247,1.00) 0%,rgba(0,0,0,1.00) 100%);
+}
+.part2{
+	margin-top: 10vw;
+	height: auto;
+	display: flex; /* contexte sur le parent */
+	justify-content: center;
+	margin-bottom: 50vh;
+}
+
+.troisgas {
+	width: auto;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.youtube {
+	position: absolute;
+	z-index: 3;
+	display: flex; /* contexte sur le parent */
+	justify-content: center;
+	padding-top: 14vw;
+}
+
+.part3 {
+	height: 50vw;
+	display: flex; /* contexte sur le parent */
+	justify-content: center;
+	margin-top: 10vw;
+}
+
+.ecritures-blanches p{
+	color: white;
+	font-family: blank;
+	color: rgba(0,0,0,0.2);
+	font-size: 23vw;
+	margin: 0;
+	line-height: 18vw;
+}
+
+.part4 {
+
+}
+
+html {
+	scroll-behavior: smooth;
+	background-color: rgb(247, 247, 247);
+
+}

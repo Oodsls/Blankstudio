@@ -1,0 +1,205 @@
+@font-face { 	font-family: "blank"; 	src: url('../font/ATTRACTYPE REBORN.ttf'); }
+@font-face { 	font-family: "normal"; 	src: url('../font/QUICKSAND-REGULAR.ttf'); }
+
+
+
+#scroll-animation
+{
+  overflow: hidden;
+}
+
+#scrooll-animation-partie
+{
+  width: 100%;
+  left: 0;
+  position: fixed;
+}
+
+#heightPage,
+#heightScroll
+{
+  width: 10px;
+  top: 0;
+  position: absolute;
+  z-index: 99;
+}
+
+#heightPage
+{
+  left: 0;
+}
+
+#heightScroll
+{
+  right: 0;
+}
+
+header
+{
+  width: 100%;
+  height: 100%;
+  background-repeat: repeat-y;
+	background-position: 50% 50%;
+	background-image: url(../IMAGE/greyclair-ecritures.png);
+  top: 0;
+  position: fixed;
+  z-index: -1;
+  background-color: #000;
+}
+
+footer
+{
+	width: 100%;
+	height: 500px;
+	background: #fff;
+	position: fixed;
+	z-index: -1;
+  display: flex;
+  flex-direction: column;
+}
+
+.content
+{
+  height: 1000px;
+  min-height: 1000px;
+  background: rgb(247,247,247);
+  position: relative;
+  z-index: 1;
+  display: flex;
+}
+.content2{
+  height: 1144px;
+  min-height: 1144px;
+  background: rgb(247,247,247);
+  position: relative;
+  z-index: 0;
+  display: flex;
+  background-repeat: repeat-y;
+	background-position: 50% 50%;
+  background-image: url(../IMAGE/greyclair-ecritures.png);
+}
+.content3{
+  height: 1000px;
+  min-height: 1000px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+.content3 h3 {
+  color: white;
+  text-align: center;
+  font-family: blank;
+  font-size: 5vw;
+}
+.content3 p {
+  color: white;
+  text-align: center;
+  font-family: normal;
+  padding-bottom: 20px;
+  font-size: 2vw;
+
+}
+.troisgas{
+  margin: auto;
+}
+.rideau-glissant{
+  margin-top: 100%;
+  margin-bottom: 300px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  padding-bottom: 100px;
+  background: rgb(247,247,247);
+}
+iframe{
+  margin: auto;
+}
+
+h1{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 150px;
+  color: #fff;
+}
+
+.logo-blanc{
+  height: 50vw;
+  display: flex;
+  margin: auto;
+}
+
+
+.diagonal-box {
+    margin-bottom: auto;
+  margin-top: auto;
+  background-image: linear-gradient(45deg, #000, #000);
+	transform: skewY(-11deg);
+}
+.diagonale {
+  max-width: 50em;
+	margin: 0 auto;
+	transform: skewY(11deg);
+}
+
+
+
+.footer{
+  display:flex;
+  margin: auto;
+}
+
+.img-tete{
+  height: 10vw;
+  width: auto;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+header h1{}
+
+.tete{
+  justify-content: space-around;
+  display: flex;
+}
+.content h1{
+  line-height: 1000px;
+  color: #999;
+}
+
+footer h1
+{
+  line-height: 300px;
+  margin: auto;
+}
+
+.img-logo-footer{
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.img-footer-logo{
+  height: 10vw;
+  width: auto;
+}
+
+header,
+footer,
+#scrooll-animation-partie
+{
+  -webkit-transition-property: all;
+     -moz-transition-property: all;
+      transition-property: all;
+
+  -webkit-transition-duration: 0.4s;
+     -moz-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+
+  -webkit-transition-timing-function: cubic-bezier(0, 0, 0, 1);
+     -moz-transition-timing-function: cubic-bezier(0, 0, 0, 1);
+      transition-timing-function: cubic-bezier(0, 0, 0, 1);
+}
