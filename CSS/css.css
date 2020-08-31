@@ -50,12 +50,13 @@ header
 footer
 {
 	width: 100%;
-	height: 500px;
+	height: auto;
 	background: #fff;
 	position: fixed;
 	z-index: -1;
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
 }
 
 .content
@@ -79,30 +80,45 @@ footer
   background-image: url(../IMAGE/greyclair-ecritures.png);
 }
 .content3{
-  height: 1000px;
-  min-height: 1000px;
+
+  height: 1500px;
+  min-height: 1500px;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   text-align: center;
-
 }
 .content3 h3 {
   color: white;
   text-align: center;
   font-family: blank;
-  font-size: 5vw;
+  font-size: 4rem;
+  letter-spacing: 4px;
 }
 .content3 p {
   color: white;
   text-align: center;
   font-family: normal;
   padding-bottom: 20px;
-  font-size: 2vw;
+  font-size: 2rem;
 
+}
+.barrenoir{
+  margin-top: -100px;
+  background-color: black;
+    width: 100%;
+    height: 255px;
+    position: absolute;
+    z-index: auto;
+}
+.lignenoir{
+  display: flex;
+  align-items: center;
+  z-index: -1;
 }
 .troisgas{
   margin: auto;
+
 }
 .rideau-glissant{
   margin-top: 100%;
@@ -149,8 +165,8 @@ h1{
 
 
 .footer{
-  display:flex;
-  margin: auto;
+  display: flex;
+  margin-top: 10vh;
 }
 
 .img-tete{
@@ -158,13 +174,17 @@ h1{
   width: auto;
   padding-left: 3vw;
   padding-right: 3vw;
+
 }
 
 header h1{}
 
 .tete{
   justify-content: space-around;
+  margin: auto;
   display: flex;
+  justify-content: flex-end;
+  position: relative;
 }
 .content h1{
   line-height: 1000px;
