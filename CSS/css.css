@@ -1,7 +1,9 @@
 @font-face { 	font-family: "blank"; 	src: url('../font/ATTRACTYPE REBORN.ttf'); }
 @font-face { 	font-family: "normal"; 	src: url('../font/QUICKSAND-REGULAR.ttf'); }
 
-
+body{
+  font-size: 100%;
+}
 
 #scroll-animation
 {
@@ -93,7 +95,7 @@ footer
   color: white;
   text-align: center;
   font-family: blank;
-  font-size: 4rem;
+  font-size: 4em;
   letter-spacing: 4px;
 }
 .content3 p {
@@ -101,7 +103,7 @@ footer
   text-align: center;
   font-family: normal;
   padding-bottom: 20px;
-  font-size: 2rem;
+  font-size: 2em;
 
 }
 .barrenoir{
@@ -244,11 +246,20 @@ footer,
     height: 1200px;
     min-height: 1200px;
   }
+
+  body {
+      font-size: 90%;
+   }
+
 }
 
 
 /* 980px / 16px = 61.25em */
 @media (max-width: 61.25em) {
+
+  body {
+      font-size: 70%;
+   }
 
   .barrenoir{
     margin-top: -100px;
@@ -284,6 +295,10 @@ footer,
 }
 
 @media (max-width: 38em) {
+
+  body {
+      font-size: 50%;
+   }
 
   .barrenoir{
     margin-top: -100px;
