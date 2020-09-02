@@ -164,10 +164,38 @@ iframe{
   margin-top: 100px;
   display: flex;
   justify-content: center;
-}
-.reseauxsociaux-img img{
   margin-left: 1vw;
   margin-right: 1vw;
+}
+
+.reseauximg-txt{
+  display: flex;
+}
+
+.reseaux-img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.reseauxsociaux-img img{
+  height: 7vh;
+}
+
+.facebook{
+ background-image: url(./IMAGE/facebook2.svg);
+}
+
+.twitter{
+ background-image: url(./IMAGE/twitter2.svg);
+}
+
+.insta{
+ background-image: url(./IMAGE/insta2.svg);
+}
+
+.youtube{
+ background-image: url(./IMAGE/youtube2.svg);
 }
 
 .barrenoir{
@@ -197,7 +225,9 @@ iframe{
   padding-bottom: 100px;
   background: rgb(255,255,255);
 }
+ a{
 
+ }
 
 h1{
   width: 100%;
@@ -426,12 +456,13 @@ footer,
     height: 900px;
   }
   .content3{
-    height: 900px;
+    height: 1000px;
   }
 
   body {
       font-size: 90%;
    }
+
 
 }
 
@@ -476,11 +507,9 @@ footer,
     height: 700px;
   }
   .content3{
-    height: 700px;
-  }
-  .contentsociaux{
     height: 1000px;
   }
+
 
   .reseauxsociaux-img img{
     height: 9vh;
@@ -528,10 +557,12 @@ footer,
   .content{
     height: 300px;
   }
+  .content2{
+    height: 400px;
+  }
   .content3{
 
     height: 900px;
-    min-height: 900px;
   }
 
 
