@@ -77,11 +77,12 @@ footer
     position: relative;
 }
 .content3 h3 {
-  color: white;
-  text-align: center;
-  font-family: blank;
-  font-size: 4em;
-  letter-spacing: 4px;
+	color: white;
+	text-align: center;
+	font-family: blank;
+	font-size: 4em;
+	letter-spacing: 4px;
+	text-transform: capitalize;
 }
 .content3 p {
   color: white;
