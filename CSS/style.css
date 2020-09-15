@@ -1,5 +1,7 @@
 @font-face { 	font-family: "blank"; 	src: url('../font/ATTRACTYPE REBORN.ttf'); }
 @font-face { 	font-family: "normal"; 	src: url('../font/QUICKSAND-REGULAR.ttf'); }
+@font-face { 	font-family: "boingR"; 	src: url('../font/BOING-REGULAR.ttf'); }
+@font-face { 	font-family: "boingL"; 	src: url('../font/BOING-LIGHTITALIC.ttf'); }
 body{
   font-size: 100%;
 }
@@ -87,10 +89,16 @@ footer
 .content3 p {
   color: white;
   text-align: center;
-  font-family: normal;
-  padding-bottom: 5px;
+  font-family: boingR;
   font-size: 2em;
 }
+.boingL p{
+  color: white;
+  text-align: center;
+  font-family: boingL;
+  font-size: 2em;
+}
+
 .ecritures-blanches{
   	margin: 0;
 }
